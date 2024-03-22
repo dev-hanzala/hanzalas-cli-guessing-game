@@ -4,6 +4,9 @@
   "description": "A simple cli based guessing game built in Typescript.",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "hanzalas-cli-guessing-game": "index.js"
   },
