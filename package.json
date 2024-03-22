@@ -1,0 +1,29 @@
+{
+  "name": "hanzalas-cli-guessing-game",
+  "version": "1.0.0",
+  "description": "A simple cli based guessing game built in Typescript.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "hanzalas-cli-guessing-game": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-hanzala/hanzalas-cli-guessing-game.git"
+  },
+  "author": "dev-hanzala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-hanzala/hanzalas-cli-guessing-game/issues"
+  },
+  "homepage": "https://github.com/dev-hanzala/hanzalas-cli-guessing-game#readme",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
